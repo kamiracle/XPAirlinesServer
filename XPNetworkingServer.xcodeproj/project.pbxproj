@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A7D3FB1540F25100F57278 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A7D3FA1540F25100F57278 /* main.c */; };
+		27A7D3FD1540F25100F57278 /* XPNetworkingServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A7D3FC1540F25100F57278 /* XPNetworkingServer.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27A7D3F41540F25100F57278 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				27A7D3FD1540F25100F57278 /* XPNetworkingServer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27A7D3F61540F25100F57278 /* XPNetworkingServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XPNetworkingServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A7D3FA1540F25100F57278 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		27A7D3FC1540F25100F57278 /* XPNetworkingServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XPNetworkingServer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A7D3F31540F25100F57278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A7D3EB1540F25100F57278 = {
+			isa = PBXGroup;
+			children = (
+				27A7D3F91540F25100F57278 /* XPNetworkingServer */,
+				27A7D3F71540F25100F57278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27A7D3F71540F25100F57278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A7D3F61540F25100F57278 /* XPNetworkingServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A7D3F91540F25100F57278 /* XPNetworkingServer */ = {
+			isa = PBXGroup;
+			children = (
+				27A7D3FC1540F25100F57278 /* XPNetworkingServer.1 */,
+				27A7D3FA1540F25100F57278 /* main.c */,
+			);
+			path = XPNetworkingServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A7D3F51540F25100F57278 /* XPNetworkingServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A7D4001540F25100F57278 /* Build configuration list for PBXNativeTarget "XPNetworkingServer" */;
+			buildPhases = (
+				27A7D3F21540F25100F57278 /* Sources */,
+				27A7D3F31540F25100F57278 /* Frameworks */,
+				27A7D3F41540F25100F57278 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPNetworkingServer;
+			productName = XPNetworkingServer;
+			productReference = 27A7D3F61540F25100F57278 /* XPNetworkingServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A7D3ED1540F25100F57278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 27A7D3F01540F25100F57278 /* Build configuration list for PBXProject "XPNetworkingServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27A7D3EB1540F25100F57278;
+			productRefGroup = 27A7D3F71540F25100F57278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A7D3F51540F25100F57278 /* XPNetworkingServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A7D3F21540F25100F57278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A7D3FB1540F25100F57278 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27A7D3FE1540F25100F57278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		27A7D3FF1540F25100F57278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		27A7D4011540F25100F57278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27A7D4021540F25100F57278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A7D3F01540F25100F57278 /* Build configuration list for PBXProject "XPNetworkingServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A7D3FE1540F25100F57278 /* Debug */,
+				27A7D3FF1540F25100F57278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A7D4001540F25100F57278 /* Build configuration list for PBXNativeTarget "XPNetworkingServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A7D4011540F25100F57278 /* Debug */,
+				27A7D4021540F25100F57278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A7D3ED1540F25100F57278 /* Project object */;
+}
