@@ -11,28 +11,28 @@ t1335139662
 s184
 
 N/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o
-t2
-s0
+t1335141327
+s6528
 
 N/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer
-t2
-s0
+t1335141328
+s9636
 
 N/Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c
-c000000004F949C810000000000000B20
-t1335139457
-s2848
+c000000004F94A3CD0000000000000A53
+t1335141325
+s2643
 
 CBuild AST from /Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies74d4e9ced444b541^2b12ebced444b541^---0#1#0#--18"Check dependencies36"8BE19F8F-53CB-4CB0-B01F-97F8F2F3F666-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb2649ae1e344b541^ef8c9ae1e344b541^---0#1#0#--18"Check dependencies36"EF51AF31-5D51-41C7-9DCA-8822687B9252-
 
 CCompileC XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o /Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s356832462.919778
-e356832462.945134
+s356834127.473682
+e356834127.770305
 r1
 xCompileC
 xXPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o
@@ -41,15 +41,15 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.cf087ebced444b541^3cf4f1ced444b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c0000000000000000^2994"CompileC XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o XPNetworkingServer/main.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kyle/src/XPAirlinesServer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -iquote /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-generated-files.hmap -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-own-target-headers.hmap -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-all-target-headers.hmap -iquote /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-project-headers.hmap -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/include -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/DerivedSources/i386 -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/DerivedSources -F/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug -MMD -MT dependencies -MF /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.dia -c /Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c -o /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o36"3AE0CA13-1EE8-4865-96B0-D5DE09FB6628-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.ca854794fdb44b541^a532c54fdb44b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c0000000000000000^2994"CompileC XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o XPNetworkingServer/main.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kyle/src/XPAirlinesServer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -iquote /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-generated-files.hmap -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-own-target-headers.hmap -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-all-target-headers.hmap -iquote /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/XPNetworkingServer-project-headers.hmap -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/include -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/DerivedSources/i386 -I/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/DerivedSources -F/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug -MMD -MT dependencies -MF /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.dia -c /Users/kyle/src/XPAirlinesServer/XPNetworkingServer/main.c -o /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/main.o36"2227CBE0-7411-433E-B12C-475115A48D7D-
 
 CLd /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer normal i386
-s356832462.951948
-e356832462.965774
+s356834127.777733
+e356834128.082051
 r1
 xLd
 x/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer55bef3ced444b541^473ef7ced444b541^---0#0#0#--802"Ld XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer normal i386    cd /Users/kyle/src/XPAirlinesServer    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug -F/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug -filelist /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/XPNetworkingServer.LinkFileList -o /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer36"E3ACFB41-87B7-4364-ADDF-E7C32DFE6DA2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer3e25c74fdb44b541^04021550db44b541^---0#0#0#--802"Ld XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer normal i386    cd /Users/kyle/src/XPAirlinesServer    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug -F/Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug -filelist /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Intermediates/XPNetworkingServer.build/Debug/XPNetworkingServer.build/Objects-normal/i386/XPNetworkingServer.LinkFileList -o /Users/kyle/src/XPAirlinesServer/XPNetworkingServer-aggxunxnuyncknhhvmtywgohestn/Build/Products/Debug/XPNetworkingServer36"A0B71600-B3BE-4B10-A4B7-D450AD8F5309-
 

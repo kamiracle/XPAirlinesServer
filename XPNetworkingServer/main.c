@@ -65,7 +65,6 @@ int main( int argc, char **argv )
     {
     
         char input_buffer[256];
-        char welcome_message[] = "X-Plane Airlines Server, version .1";
         bzero(input_buffer, 256);
         
         sin_size = sizeof(client_addr);
@@ -89,11 +88,7 @@ int main( int argc, char **argv )
             exit(1);
         }
         if ( pid == 0 ) 
-        {
-            if ( write( connectfd, welcome_message, sizeof(welcome_message)) < 0 ) {
-                perror("write");
-            }
-            
+        {            
             if ( read( connectfd, input_buffer, 255 ) < 0 ) {
                 perror( "read" );
                 exit(1);
